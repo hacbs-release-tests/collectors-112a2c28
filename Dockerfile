@@ -1,5 +1,6 @@
 FROM registry.access.redhat.com/ubi9/ubi:latest
 
+LABEL name="rhtap/rh-advisories-component"
 LABEL description="This tool is called comp2..."
 LABEL io.k8s.description="This tool..."
 LABEL io.k8s.display-name="comp2"
